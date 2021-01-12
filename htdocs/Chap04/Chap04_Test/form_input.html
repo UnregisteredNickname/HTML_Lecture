@@ -1,28 +1,37 @@
 <body>
-	
-	   <optgroup label="시작 그룹">
-		  
-		    <option>새탭 페이지 열기</option>
-			<option>중단한 위치에서 계속하기</option>
-			<option>특정 페이지 또는 페이지 모음 열기</option>
-
-		</optgroup>
-		<optgroup label="개인정보 및 보안">
-			<option>동기화 및 서비스</option>
-			<option>로그인 허용</option>
-			<option>페이지 미리 로드</option>
-		</optgroup>
-		
-		  <tr>
-		   <td>시작 그룹
-		     <input id="openPage" type="radio" name="start" value="1">
-		     <label for="openPage">새탭 페이지 열기</label>
-		   </td>
-		  
-		   새탭 페이지 열기
-		중단한 위치에서 계속하기
-			특정 페이지 또는 페이지 모음 열기
-
-		</optgroup>
-	
+	<form>
+		<fieldset style="width:280px; height:200px;">
+		<table>
+			<tr>
+				<td>시작그룹</td>
+			</tr>
+			<tr>
+				<td><input name="button1" type="radio" value="first" checked>새 탭 페이지 열기</td>
+			</tr>
+			<tr>
+				<td><input name="button1" type="radio" value="second">중단한 위치에서 계속하기</td>
+			</tr>
+			<tr>
+				<td><input name="button1" type="radio" value="third">특정 페이지 또는 페이지 모음 열기</td>
+			</tr>	
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>개인정보 및 보안</td>
+			</tr>
+			<tr>
+				<td><input name="box" type="checkbox" value="first" checked>동기화 및 서비스</td>
+			</tr>
+			<tr>
+				<td><input name="box" type="checkbox" value="second" checked>로그인 허용</td>
+			</tr>
+			<tr>
+				<td><input name="box" type="checkbox" value="third">페이지 미리 로드</td>
+			</tr>
+		</table>
+		</fieldset>
+	</form>
 </body>
