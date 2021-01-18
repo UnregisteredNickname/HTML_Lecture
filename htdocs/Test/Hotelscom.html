@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hotels.com</title>
+		<style>
+			
+			/* 헤더로 동일 속성값 적용 */
+			header { 
+				color:white;
+				background-color: red;
+				font-size: 20px;
+				}
+			/* test1과 test2 그룹으로 나눠서 다른 속성 적용 */
+			span#test1 {
+				margin-right: 600px;
+				margin-left: 100px;
+				}
+				
+			.test2 {
+				margin-right: 0;
+				}
+			/* test3과 test4 그룹으로 나눠서 다른 속성 적용 */	
+			span#test3 {
+				margin-right: 10px;
+				margin-left: 100px;
+				font-size: 12px;
+				}
+				
+			.test4 {
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 12px;
+				}
+
+			#section { 
+				margin: 0 auto;
+				width: 1160px;
+				}
+				
+			#table1 {
+				font-size: 20px;
+				}
+				
+			#cancel {
+				float: left;
+				}
+				
+			#reward {
+				float: left;
+				}
+				
+			#price {
+				float: left;
+				}
+			
+			.group1 {
+				font-size: 20px; 
+				color: green;
+				margin-left: 10px;
+			}
+			
+			.group2 {
+				font-size: 12px;
+				color: green;
+				margin-top: 0;
+				margin-left: 50px;
+			}
+			
+			.group3 {
+				font-size: 20px; 
+				color: blue;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			
+			.group4 {
+				font-size: 12px; 
+				color: blue;
+				margin-top: 0;
+				margin-left: 50px;
+			}
+			
+			.group5 {
+				font-size: 20px; 
+				color: purple;
+				margin-left: 10px;
+			}
+			
+			.group6 {
+				font-size: 12px; 
+				color: purple;
+				margin-top: 0;
+				margin-left: 50px;
+			}
+			
+
+
+			#left1 {
+				display:inline-block;
+				width: 300px;
+				margin-right: 20px;
+				}
+				
+			#center1 {
+				display:inline-block;
+				width: 300px;
+				margin: 0 auto;
+				margin-right: 70px;
+				margin-left: 70px;
+				}
+				
+			#right1 {
+				display:inline-block;
+				margin-left: 20px;
+				margin-right: 0px;
+				width: 300px;
+				}
+				
+			
+			.grid {
+      			  width: 1160px;
+       			  margin: 0 auto;
+    		      overflow: hidden; /*부모 높이를 잊어벼리기때문에 다시 높이를 생기게끔해주는 float해재 기법*/
+				}
+    
+			.grid_item {
+     		      width: 360px;
+  		          height: 260px;
+      			  float: left; /*가로 정렬을 하기위한 float*/
+      			  margin-right: 10px;
+      			  margin-left: 10px;
+				}
+			.grid_item.first {
+				font-size: 12px;
+				}
+			.grid_item.two {
+				font-size: 12px;
+				}
+			.grid_item.third {
+				font-size: 12px;
+				}
+			
+			.font1 {
+				margin: 0;
+				}
+				
+			.font2 {
+				margin: 0;
+				}
+				
+			.font3 {
+				margin: 0;
+				}
+				
+			.hotel {
+				 width: 1160px;
+       			 margin: 0 auto;
+    		     overflow: hidden;
+				}
+				
+			.accommodations {
+				width: 160px;
+				height: 150px;
+				float: left;
+				margin-right: 10px;
+				margin-left: 10px;
+				}
+			
+			.font4 {
+				font-size: 15px;
+				margin-top: 0;
+			} 
+			
+			#explain {
+				font-size: 12px;
+				margin: 0 auto;
+				width: 960px;
+				}
+			
+			.explain1 {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			
+			#title1 {
+				font-size: 15px;
+				margin: 0 auto;
+				width: 500px;
+			}
+
+			h4 {
+				color: blue;
+				margin-left: 40px;
+			}
+
+			.footer1 {
+				margin-top: 0;
+				margin-bottom: 0;
+				margin-left: 40px;
+				font-size: 14px;
+			}
+
+			#main {
+				width: 1800px;
+				height: 400px;
+				background-image: url('https://tpc.googlesyndication.com/simgad/15040095788267997080?');
+				background-size: 95%;
+				background-repeat: no-repeat;
+				}
+
+			#field {
+				height: 360px;
+				width: 360px;
+				margin-left: 200px;
+				background-color: #eae8e0;
+			}
+
+			#mainp1 {
+				font-size: 12px;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			#mainp2 {
+				font-size: 12px;
+				margin-top: 1px;
+			}
+
+			#h2 {
+				font-size: 20px;
+				margin-top: 5px;
+				margin-bottom: 0;
+			}
+
+			.check {
+				font-size: 12px;
+				margin-right: 110px;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			.select1 {
+				font-size: 15px;
+			}
+
+			#room {
+				font-size: 12px;
+				margin-right: 100px;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			#adult {
+				font-size: 12px;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			#kid {
+				font-size: 12px;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+
+			#year {
+				font-size: 12px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="hotelsmain">
+			<header> 
+				<span id="test1">H Hotels.coms</span>
+				<span class="test2">
+					<select>
+						<option>Korea</option>
+						<option>America</option>
+						<option>Japan</option>
+						<option>Chinna</option>
+						<option>Russia</option>
+					</select>
+				</span>
+				<span class="test2">
+					<select>
+						<option>KRW</option>
+						<option>USD</option>
+						<option>JPY</option>
+						<option>CNY</option>
+						<option>RUB</option>
+					</select>
+				</span>
+				<span class="test2">
+					<select>
+						<option>예약변경</option>
+						<option>FAQ</option>
+						<option>문의</option>
+						<option>사이트에 대한 의견</option>
+					</select>
+				</span>
+				<span class="test2">내 예약 정보</span>
+				<span class="test2">회원가입</span>
+				<span class="test2">로그인</span>			
+			</header>
+			<nav>
+				<span id="test3">
+				<a href="https://kr.hotels.com/teukga-hotel-sangpoom/?intlid=HOME+%3A%3A+header_main_section">특가상품</a>
+				</span>
+				<span class="test4">
+				<a href="https://kr.hotels.com/page/first-time-user-guide/?intlid=HOME+%3A%3A+header_main_section">사이트 이용 안내</a>
+				</span>
+				<span class="test4">
+				<a href="https://welcome.expediagroup.com/ko/how-to-list-your-property-on-hotels?utm_term=SEM-Branded&utm_campaign=HOME&utm_medium=referral&lasttouchMktgcode=SEM-Branded&utm_source=HCOM_KR-ko_KR&utm_content=header-link">숙박 시설 등록하기</a>
+				</span>
+				<span class="test4">
+				<a href="https://kr.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=HOME+%3A%3A+header_main_section">Hotels.com™ 호텔스닷컴 리워드</a>
+				</span>
+			</nav>
+			<div>	
+				<div id="main">
+					<fieldset id="field" style="border-radius:0.5em;">
+						<h2 id="h2">어디로 떠나고 싶으세요?<h2>
+						<p id="mainp1">전 세계 목적지 및 숙박 시설</p>
+						<input type="text">
+						<p id="mainp2">목적지 또는 숙박 시설을 입력하세요.</p>
+						<hr>
+						<span class="check">체크인</span><span class="check">체크아웃</span>
+						<input type="date">
+						<input type="date">
+						<hr>
+						<table>
+							<tr>
+								<th id="room">객실</th>
+								<th id="adult">성인</th>
+								<th id="kid">아동</th>
+							</tr>
+							<tr>
+								<td>
+									<select id="room1">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9+</option>
+									</select>
+								</td>
+								<td>
+									<select id="adult1">
+										<option>1</option>
+										<option>2</option>						
+										<option>3</option>						
+										<option>4</option>						
+										<option>5</option>						
+										<option>6</option>						
+										<option>7</option>						
+										<option>8</option>						
+										<option>9</option>						
+										<option>10</option>						
+										<option>11</option>						
+										<option>12</option>						
+										<option>13</option>						
+										<option>14</option>						
+										<option>15</option>						
+										<option>16</option>						
+										<option>17</option>						
+										<option>18</option>						
+										<option>19</option>						
+										<option>20</option>
+									</select>
+								</td>
+								<td>
+									<select id="kid1">
+										<option>0</option>
+										<option>1</option>
+										<option>2</option>						
+										<option>3</option>						
+										<option>4</option>						
+										<option>5</option>						
+										<option>6</option>						
+									</select>
+								</td>
+							</tr>
+						</table>
+						<p id="year">만 18세 이상 만 17세 이하</p>
+						<hr>
+					</fieldset>
+				</div>
+				
+			</div>
+			<div id=section>
+				<h2>Hotels.com에서 예약해야 하는 이유</h2>
+				
+				<div id="left1">
+					<ul id="list1">
+						<li>
+							<img id="cancel" src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/calendar-tick.svg" width="40" height="40">
+							<div>
+								<span class="group1"><b>무료 취소</b></span>
+							    <p class="group2">대부분의 호텔*</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="center1">
+					<ul>
+						<li>
+							<img id="price" src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/price-guarantee.svg" width="40" height="40">
+							<div>
+								<span class="group3"><b>가격 보장</b></span>
+							    <p class="group4"><a href="https://kr.hotels.com/customer_care/pillar/price_guarantee.html?intlid=%5BInsight%5D+homepage+%3A%3A+trust+messaging+%3A%3A+price+guarantee+clicked">자세히 알아보기</a></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="right1">
+					<ul>
+						<li>
+							<img id="reward" src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/rewards.svg" width="40" height="40">
+							<div>
+								<span class="group5"><b>리워드 숙박 혜택</b></span>
+							    <p class="group6"><a href="https://kr.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=%5BInsight%5D+homepage+%3A%3A+trust+messaging+%3A%3A+rewards+clicked">대부분의 호텔</a></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<hr>
+				<div>
+					<img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/brands/hcom/hcomrewards/logos/rewards-logo-purple-no-moon-ko_KR.png" height="18" width="241">
+				</div>
+				<div>
+					<a href="https://kr.hotels.com/?intlid=HOME+%3A%3A+header_main_section#copyright">*자세한 정보 보기</a>
+				</div>
+				<div>
+					<h2>다음 여행을 계획해 보세요!</h2>
+				</div>
+				<div class="grid">
+           			 <div class="grid_item first" >			 	
+           			 	<img src="https://a.cdn-hotels.com/cos/production/c5e4e00d-aac1-4e16-a91c-8d996ef3f6b9/0.131/2f3f1553-fd1b-423f-8c7a-74d8f9489650.jpg" width="360" height="200">
+           			 	<p class="font1"><b>앱 다운로드하기</b></p>
+           			 	<p class="font1">모바일 앱으로 언제 어디서나!</p>
+           			 	<a class="font1" href="https://kr.hotels.com/page/app/?mat_deeplink=hotelsapp%3A%2F%2Fwww.hotels.com%2F%3F%26rffrid%3DBRAND.SITE.MERCH.MOBILE.BANNER%26referrer%3Dmat_click_id%3Dba44fc2ae2c44fff82b327bf0f6f529f-20210117-186232%26link_click_id%3D879328919118190251%26mat_click_id%3Dba44fc2ae2c44fff82b327bf0f6f529f-20210117-186232&referrer=mat_click_id%3Dba44fc2ae2c44fff82b327bf0f6f529f-20210117-186232%26link_click_id%3D879328919118190251&mat_click_id=ba44fc2ae2c44fff82b327bf0f6f529f-20210117-186232">자세히 보기</a>
+           			 </div>
+            		 <div class="grid_item two">
+            		 	<img src="https://a.cdn-hotels.com/cos/production/c5e4e00d-aac1-4e16-a91c-8d996ef3f6b9/0.131/f3ac52a8-0424-4a5f-8a5b-8327d2558f49.jpg" width="360" height="200">
+            		 	<p class="font2"><b>어디에서든 숙박 적립</b></p>
+            		 	<p class="font2">*이용약관 보기</p>
+            		 	<a class="font2" href="https://kr.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=kr_hp_pos2_hrw?pos=HCOM_KR&locale=ko_KR">자세히 보기</a>
+            		 </div>
+            		 <div class="grid_item third">
+            		 	<img src="https://a.cdn-hotels.com/cos/production/c5e4e00d-aac1-4e16-a91c-8d996ef3f6b9/0.131/5e71fac7-0187-4cae-9916-7e9cb2310f00.jpg" width="360" height="200">
+            		 	<p class="font3"><b>일부 숙박 시설 무료 취소</b>
+            		 	<p class="font3">안심하고 예약하세요!</p>
+            		 	<a class="font3" href="https://kr.hotels.com/hotel-deals/free-cancellation?intlid=kr_hp_pos3_freecancellation">지금 바로 예약</a>
+            		 </div>
+            	</div>
+            	<div></div>
+            	<h2>호텔 및 기타 숙박 시설</h2>
+            	<div class="hotel">
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/gqDhcK-KyNdStAmcjfKfZFs2W-g=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/resorts.jpg" width="160" height="120">
+            			<p class="font4"><b>리조트</b></p>
+            		</div>
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/Dv3Mvh5eA3zdNxBjkzAJxaBo5CM=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/apartments.jpg" width="160" height="120">
+            			<p class="font4"><b>아파트</b></p>
+            		</div>
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/3_w7hzDkQ5kf2zNh5VAmCN2N_tk=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hotels.jpg" width="160" height="120">
+            			<p class="font4"><b>호텔</b></p>
+            		</div>
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/B3IEnle0QaBEfvBSvzknwgvl59Y=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/guest_houses.jpg" width="160" height="120">
+            			<p class="font4"><b>게스트하우스</b></p>
+            		</div>
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/AtzPXxKPNZNszepSonp86BzIdCo=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/hostels.jpg" width="160" height="120">
+            			<p class="font4"><b>호스텔</b></p>
+            		</div>
+            		<div class="accommodations">
+            			<img src="https://thumbnails.expedia.com/3ZdrbKss356qzrJkZShmmeJvExw=/188x106/smart/filters:quality(100)/a.cdn-hotels.com/images/common/pages/lpa/homepage/propertytypes/ryokan.jpg" width="160" height="120">
+            			<p class="font4"><b>료칸</b></p>
+            		</div>
+				</div>
+				<div id="explain">
+					<p class="explain1">호텔스닷컴은 업계 선두의 온라인 숙박 시설 예약 사이트입니다. 전 세계 90개 현지 웹사이트에서 41개 언어로 유용한 정보와 상품을 제공하며 호텔, 휴가용 주택, 리조트,</p>
+					<p class="explain1">아파트, 게스트하우스, 트리하우스 등 원하는 곳을 예약하실 수 있어요. 또한, 전 세계 200여 개국과 지역에서 수십만 개의 숙박 시설에 가격 보장 혜택을 드립니다.</p>
+					<p class="explain1">호텔스닷컴의 혁신적인 온라인 도구와 모바일 앱을 지금 이용해 보세요. 호텔스닷컴과 함께라면 예약 더 이상 어렵지 않아요.</p>
+				</div>
+				<br>
+				<br>
+				<div id="title1">다음 중 하나를 선택해 저렴하게 예약하세요!</div>
+            	
+			</div>
+			<footer>
+				<h4>expedia group</h4>
+				<p class="footer1">* 일부 호텔은 체크인 24시간 이상 전에 취소해야 합니다. 자세한 내용은 사이트에서 확인해 주세요.</p>
+				<p class="footer1">* 리워드 1박의 금액은 적립하신 스탬프 10개의 평균 요금입니다. 세금 및 서비스 요금이 포함되지 않습니다.</p>
+				<p class="footer1">사용하시는 각 리워드 숙박에 대해 ₩5,500의 수수료가 적용되지만 앱에서 사용 시 수수료가 없습니다. 제외 사항이</p>
+				<p class="footer1">적용됩니다.이용약관 보기리워드 숙박에 도달하는 데 걸리는 평균 시간에 대한 참조는 2018년 1월 1일 ~ 2019년</p>
+				<p class="footer1">Access 숙박 시설에서만 이용 가능할 수 있습니다. 가격 보장 플러스는 패키지에 적용되지 않으며(판매되는 경우)</p>
+				<p class="footer1">Hotels.com에서 객실을 결제하고 체크인 시까지 Hotels.com 또는 다른 웹사이트에서 동일한 객실과 동일한 일정에</p>
+				<p class="footer1">요금이 환불되며, 더 저렴한 요금을 다른 웹사이트에서 발견하신 경우에는 차액을 환불해 드립니다.</p>
+				<p class="footer1">© 2021 Hotels.com은 Expedia Group 계열사입니다. All rights reserved.</p>
+				<p class="footer1">Hotels.com 및 Hotels.com 로고는 미국 및/또는 다른 국가에서 Hotels.com, LP의 상표 또는 등록 상표입니다. 기타</p>
+				<p class="footer1">모든 상표는 해당 소유권자의 자산입니다.</p>
+				<p class="footer1">서울시 종로구 종로5길 Tower8 9층, Tel: 02-3480-0145, Mail: CS@koreasupport.hotels.com</p>
+				<p class="footer1">트래블 파트너 익스체인지 코리아 주식회사 | 사업자등록번호 821-88-01025 | 대표이사: 김상범</p>
+				<p class="footer1">(주) 호텔스닷컴코리아 |사업자등록번호 : 717-81-00091ㅣ사업자정보확인ㅣ통신판매업신고번호 : 2015-</p>
+				<p class="footer1">서울종로-1067호</p>
+				<p class="footer1">이 웹사이트에서 진행하신 예약과 관련한 문의사항은 [고객서비스 02-3480-0145]로 연락 주시기 바랍니다.</p>
+				<p class="footer1">호텔스닷컴 웹사이트를 통해 구매할 수 있는 게재 상품 및 서비스에 대한 정보는 판매자에 의해 제공됩니다. 따라서</p>
+				<p class="footer1">호텔스닷컴은 이와 관련된 정보의 정확성과 완전성 여부에 대해 책임을 지지 않습니다.</p>
+			</footer>
+		</div>
+	</body>
+</html>

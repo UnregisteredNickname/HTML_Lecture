@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>국내 패션 특가</title>
+	<style>
+		#headerbox{
+			background: red;
+			color: white;
+			padding:5px 10px 5px 10px;
+			line-height: 30px;
+			overflow: hidden;
+		}
+		.left{
+			text-align: left;
+		}
+		.right{
+			text-align: right;
+		}
+		.login{
+			background-color: #980000;
+		}
+		.img{
+			float: left;
+		}
+		a{
+			color: black;
+			text-decoration: none;
+		}
+		.item{
+			float: right;
+			margin:0 3px;
+			padding:10px;
+			margin-top: 10px;
+		}
+		.item1{
+			float: left;
+			margin:5px 10px;
+			padding:5px;
+			font-size: small;
+		}
+		#nav1{
+			background-color:green;
+			padding:5px 10px 5px 10px;
+			line-height: 20px;
+			overflow: hidden;
+		}
+		.white{
+			color: white;
+			margin-left: 76px;
+		}
+		section{
+			margin: 0 auto;
+			width:1150px;
+		}
+		h1{
+			text-shadow:0px 5px 5px gray;
+		}
+		fieldset{
+			background-color: #eae8e0;
+			margin: 0 auto;
+			width: 1080px;
+		}
+		.item2{
+			border: 1px solid black;
+			text-align: center;
+			margin-top: 13px;
+  		    margin-left: 20px;
+		}
+		.item3{
+			box-sizing: content-box;
+			width: 100%;
+			padding: 3px;
+			background-color:#989aa978;
+			border-radius:15px;
+			margin-right: 13px;
+		}
+		.backwhite{
+			background-color: white;
+			height: 480px;
+			width:270px;
+			margin-right: 20px;
+		}
+		.backwhite:hover{
+			border: 2px solid blue;
+		}
+		#jeju button{
+			 border: 1px solid #567fd2;
+			 background-color : white;
+			 color: #567fd2;
+			 margin-left: 100px;
+			 margin-top: 78px;
+
+		}
+		#jeju img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5px;
+		}
+		#jeju button:hover{
+			background-color: blue;
+			color: white;
+		}
+		#seogwipo button{
+			 border: 1px solid #567fd2;
+			 background-color : white;
+			 color: #567fd2;
+			 margin-left: 100px;
+			 margin-top: 78px;
+
+		}
+		#seogwipo img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 5px;
+		}
+		#seogwipo button:hover{
+			background-color: blue;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="headerbox">
+		<img class="img" src="KakaoTalk_20210115_124228620.png" width=260>
+		<div class="right">
+			<div class="item login">로그인</div>
+			<div class="item">회원가입</div>
+			<div class="item">내 예약정보</div>
+			<div class="item">도움말</div>
+			<div class="item">KRW</div>
+		</div>
+	</div>
+	<div class="item1"><a href="https://kr.hotels.com/teukga-hotel-sangpoom/?intlid=OTHER+%3A%3A+header_main_section">특가 상품</a></div>
+	<div class="item1"><a href="https://kr.hotels.com/page/first-time-user-guide/?intlid=OTHER+%3A%3A+header_main_section">사이트 이용 안내</a></div>
+	<div class="item1"><a href="https://welcome.expediagroup.com/ko/how-to-list-your-property-on-hotels?utm_term=unknown&utm_campaign=OTHER&utm_medium=referral&lasttouchMktgcode=unknown&utm_source=HCOM_KR-ko_KR&utm_content=header-link">숙박 시설 등록하기</a></div>
+	<div class="item1"><a href="https://kr.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=OTHER+%3A%3A+header_main_section">Hotels.com<sup>TM</sup>호텔스닷컴 리워드</a></div>
+	<br>
+	<br>
+	<div id="nav1">
+		<div class="white">
+			<small>호텔 > 특가 상품 > 국내 펜션 특가</small>
+			<br>
+			<h1>국내 펜션 특가</h1>
+			<h2>지금 예약하세요!</h2>
+		</div>
+		<div>
+			<fieldset style="border-radius:0.5em;">
+				<table>
+					<tr>
+						<th>목적지 또는 숙박 시설을 입력하세요</th>
+						<th>체크인</th>
+						<th>체크아웃</th>
+						<th>객실</th>
+						<th>성인</th>
+						<th>아동</th>
+					</tr>
+					<tr>
+						<td><input id="text" type="text"></td>
+						<td><input id="check-in" type="date" name="check-in" value=""></td>
+						<td><input id="check-out" type="date" name="check-out" value=""></td>
+						<td>	
+							<select>
+								<option>1</option>
+								<option>2</option>						
+								<option>3</option>						
+								<option>4</option>						
+								<option>5</option>						
+								<option>6</option>						
+								<option>7</option>						
+								<option>8</option>						
+								<option>9+</option>						
+							</select>
+						</td>
+						<td>
+							<select>
+								<option>1</option>
+								<option>2</option>						
+								<option>3</option>						
+								<option>4</option>						
+								<option>5</option>						
+								<option>6</option>						
+								<option>7</option>						
+								<option>8</option>						
+								<option>9</option>						
+								<option>10</option>						
+								<option>11</option>						
+								<option>12</option>						
+								<option>13</option>						
+								<option>14</option>						
+								<option>15</option>						
+								<option>16</option>						
+								<option>17</option>						
+								<option>18</option>						
+								<option>19</option>						
+								<option>20</option>						
+							</select>
+						</td>
+						<td>
+							<select>
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>						
+								<option>3</option>						
+								<option>4</option>						
+								<option>5</option>						
+								<option>6</option>						
+							</select>
+						</td>
+						<td><input name="key" type="button" value="검색" style="background-color: #567fd2; color: white;"></td>
+					</tr>	
+				</table>
+			</fieldset>
+		</div>
+	</div>
+	<section>
+		<div class="item2">
+			<input id="check" type="checkbox"  value="">
+			<label for="check">대부분의 호텔 <span style="color: green; font-size: 19px">무료 취소</span></label>
+			<input id="check1" type="checkbox" value="">
+			<label for="check1">대부분의 객실 <span style="color: green; font-size: 19px">지금 결제 또는 현장 결제 옵션</span></label>
+		</div>
+		<br>
+		<span class="item3"><a href="#jeju">&nbsp;&nbsp;제주시&nbsp;&nbsp;</a></span>
+		<span class="item3"><a href="#seogwipo">&nbsp;&nbsp;서귀포&nbsp;&nbsp;</a></span>
+		<span class="item3">&nbsp;&nbsp;강릉&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;여수&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;경주&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;평창&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;양양&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;거제&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;가평&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;남해&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;통영&nbsp;&nbsp;</span>
+		<span class="item3">&nbsp;&nbsp;태안&nbsp;&nbsp;</span>
+		<br>
+		<br>
+		<fieldset id="jeju" style="border: none">
+			<div style="font-size: 30px"><span>제주시</span></div>
+			<input type="button" id="check1" name="check1" value="특가 상품 모두 보기" style="border: 3px 6px; background-color: #567fd2; color: white; float: right;">
+			<br>
+			<br>
+			<div style="display: flex">
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/20000000/19770000/19764600/19764575/3683e83d_b.jpg" width="260" height="170" >
+					<h3>반하크라펜션</h3>
+					<p>3.5성급</p>
+					<p style="color: green">휼륭함 8.8/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/20000000/19220000/19211200/19211197/fd2c7e42_b.jpg" width="260" height="170">
+					<h3>송당송당 펜션앤리조트</h3>
+					<p>3성급</p>
+					<p style="color: green">매우 좋음 8.0/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/16000000/15140000/15136100/15136019/6ad2f0e7_b.jpg" width="260" height="170">
+					<h3>허브인휴양펜션</h3>
+					<p>2.5성급</p>
+					<p style="color: green">좋음 7.6/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/15000000/14730000/14728400/14728344/b36e08f4_b.jpg" width="260" height="170">
+					<h3>뷰타워리조트</h3>
+					<p>3성급</p>
+					<p style="color: green">좋음 7.4/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+			</div>
+			<br>
+			<input type="button" id="check1" name="check1" value="특가 상품 모두 보기" style="border: 3px 6px; background-color: #567fd2; color: white; float: right;">
+		</fieldset>
+		<fieldset id="seogwipo" style="border: none">
+			<hr>
+			<div style="font-size: 30px"><span>서귀포</span></div>
+			<input type="button" id="check1" name="check1" value="특가 상품 모두 보기" style="border: 3px 6px; background-color: #567fd2; color: white; float: right;">
+			<br>
+			<br>
+			<div style="display: flex">
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/9000000/8010000/8001600/8001520/c1a7d953_b.jpg" width="260" height="170" >
+					<h3>제주 봄 스테이</h3>
+					<p>3.5성급</p>
+					<p style="color: green">매우 휼륭함 9.2/10</p>
+					<p style="color: red; font-size: small; ">고객's pick</p>
+					<button>가격 보기</button>
+					<br>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/11000000/10970000/10963900/10963838/5e71fe61_b.jpg" width="260" height="170">
+					<h3>보우힐</h3>
+					<p>3성급</p>
+					<p style="color: green">최고 좋음 9.4/10</p>
+					<p style="color: red; font-size: small; ">고객's pick</p>
+					<button>가격 보기</button>
+					<br>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/19000000/18160000/18151500/18151409/8688e343_b.jpg" width="260" height="170">
+					<h3>미소가펜션</h3>
+					<p>3성급</p>
+					<p style="color: green">매우 좋음 8.2/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+				<div class="backwhite">
+					<img src="https://exp.cdn-hotels.com/hotels/20000000/19380000/19372200/19372115/8b89cf04_b.jpg" width="260" height="170">
+					<h3>라벤더스</h3>
+					<p>3성급</p>
+					<p style="color: green">좋음 7.6/10</p>
+					<br>
+					<br>
+					<button>가격 보기</button>
+				</div>
+			</div>
+			<br>
+			<input type="button" id="check1" name="check1" value="특가 상품 모두 보기" style="border: 3px 6px; background-color: #567fd2; color: white; float: right;">
+		</fieldset>
+	</section>
+</body>
+</html>
