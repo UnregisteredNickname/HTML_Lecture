@@ -1,0 +1,160 @@
+     
+
+          <!-- product title -->
+          <p class="product-display-name"><span class="item-title">나이키 리액트 인피니티 런 플라이니트 2</span></p>
+
+          <!-- product category -->
+          
+  <div class="product-subtitle">
+		<span class="text-color-secondary">남성 신발 러닝</span>
+  </div>
+
+
+
+
+
+
+
+          <!-- colorway -->
+          <div id="item-color-opt" class="product-colorways-number">
+            <span class="text-color-secondary">6 컬러</span>
+          </div>
+        </div>
+        <div class="product-price ta-md-r">
+          <!-- price -->
+          
+            
+            
+            
+              
+	
+
+
+            
+            <p class="product-display-price">179,000 원</p>
+            
+          
+
+          <!-- discount price -->
+          
+        </div>
+      </div>
+
+      <!-- colorway thums (thumb-img-slider) -->
+      <!-- <div id="thumb-img-slider" th:if="${colorLen gt 1 and showColorSlider eq 'true'}" style="display:block;"> -->
+      <div id="thumb-img-slider" class="product-colorways-wrapper">
+        
+    <div class="product-option_radio" data-component-categoryslider="">
+        <!-- <input type="hidden" id="small_slider_curr_pos" th:value="0" />
+        <input type="hidden" id="small_slider_curr_page" value="1" />
+        <input type="hidden" id="small_slider_page_cnt" value="1" />
+        <input type="hidden" id="small_slider_lastimg_cnt" value="0" /> -->
+        <!-- <button type="button" class="btn-prev-small left" id="btn_prev_smallthumb" style="display:none;"><span class="ns-arrow-thin-left"></span></button> -->
+        <div class="ulWrapper">
+            <ul>
+                
+                
+                <div>
+                    
+                    <li class="checked  ">
+                        
+                        
+                            <a class="input-radio checked" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-003/oenl94/nike-react-infinity-run-fk-2">
+                                <span class="label img-type">
+                                    <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-003/2175dd0e-cf25-4ada-89e6-a45e3578e5e9_primary.jpg?thumbnail">
+                                </span>
+                            </a>
+                        
+                    </li>
+                </div>
+                
+                
+                
+                <div>
+                    
+                    <li class="  ">
+                        
+                            
+                                <a class="input-radio" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-001/rlid94/nike-react-infinity-run-fk-2">
+                                    <span class="label img-type">
+                                        <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-001/2fc052fb-18ce-4b77-ad53-62d2223fb339_primary.jpg?thumbnail">
+                                    </span>
+                                </a>
+                            
+                            
+                            
+                    </li>
+                </div>
+                <div>
+                    
+                    <li class="  ">
+                        
+                            
+                                <a class="input-radio" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-002/fxca62/nike-react-infinity-run-fk-2">
+                                    <span class="label img-type">
+                                        <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-002/f156a607-e66c-477c-9350-7f0e5decb7f7_primary.jpg?thumbnail">
+                                    </span>
+                                </a>
+                            
+                            
+                            
+                    </li>
+                </div>
+                
+                <div>
+                    
+                    <li class="  ">
+                        
+                            
+                                <a class="input-radio" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-100/kizy71/nike-react-infinity-run-fk-2">
+                                    <span class="label img-type">
+                                        <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-100/b4268ecb-bd76-4bb0-831f-cf3de24d03c4_primary.jpg?thumbnail">
+                                    </span>
+                                </a>
+                            
+                            
+                            
+                    </li>
+                </div>
+                <div>
+                    
+                    <li class="  ">
+                        
+                            
+                                <a class="input-radio" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-200/bqao60/nike-react-infinity-run-fk-2">
+                                    <span class="label img-type">
+                                        <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-200/f4167a06-bdfe-497e-9704-e0c1309f9588_primary.jpg?thumbnail">
+                                    </span>
+                                </a>
+                            
+                            
+                            
+                    </li>
+                </div>
+                <div>
+                    
+                    <li class="  ">
+                        
+                            
+                                <a class="input-radio" data-click-area="PW" data-click-name="hover state" href="/kr/ko_kr/t/men/fw/running/CT2357-600/tkbc18/nike-react-infinity-run-fk-2">
+                                    <span class="label img-type">
+                                        <img src="https://static-breeze.nike.co.kr/kr/ko_kr/cmsstatic/product/CT2357-600/95d7cf54-f75a-46de-a762-98856c1c566a_primary.jpg?thumbnail">
+                                    </span>
+                                </a>
+                            
+                            
+                            
+                    </li>
+                </div>
+            </ul>
+            <!-- 컬러웨이 갯수 표시 -->
+            <div class="extraNum text-color-secondary">+<span>1</span></div>
+        </div>
+
+        <!-- <button type="button" class="btn-next-small right" id="btn_next_smallthumb"><span class="ns-arrow-thin-right"></span></button> -->
+    </div>
+
+
+      </div>
+    </div>
+  </div>
