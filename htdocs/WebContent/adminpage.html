@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>AddUserAdminPage</title>
+    <style>
+    	header {
+    		background-color: red;
+    		margin: 0 auto;
+    		width: 1700px;
+    		overflow: hidden;
+    	}
+    	
+    	.header-left {
+    		float: left;
+    		margin: 10px;
+    		margin-right: 70px;
+    	}
+    	
+    	.header-middle {
+    		float: left;
+    		margin: 10px;
+    	}
+    	
+    	.header-right {
+    		float: left;
+    		margin: 10px;
+    		background-color: blue;
+    	}
+    	
+    	
+    	#side {
+    		position: absolute;
+    		background-color: orange;
+    		width: 300px;
+    		height: 800px;
+    		float: left;
+    		margin-left: 5px;
+    	}
+    	section {
+    		background-color: green;
+    		position: absolute;
+    		left: 32.5%; top: 18.3%;
+    		margin-left: -250px;
+    		margin-top: -125px;
+    		width: 1400px;
+    		height: 800px;
+    		border: 1px solid;
+    	}
+    	
+    	fieldset {
+    		border: 1px solid;
+    	}
+    	
+    </style>
+  </head>
+  <body>
+	<!-- source start -->  
+	<header>
+		<div class="header-left">whoIsADMIN</div>
+		<nav>
+			<div class="header-middle">사이트운영</div>
+			<div class="header-middle">SMS/메일</div>
+			<div class="header-middle">디자인 관리</div>
+			<div class="header-middle">모바일 디자인 관리</div>
+			<div class="header-middle">통계</div>
+			<div class="header-middle">환경설정</div>
+			<div class="header-middle">후이즈드림 메일</div>
+			<div class="header-right" id="imagelink">이미지링크1</div>
+			<div class="header-right">이미지링크2</div>
+			<div class="header-right">이미지링크3</div>
+		</nav>	
+	</header>
+	<aside id="side">
+		
+	</aside>
+	<section>
+		<div><h2>사용자관리</h2></div>
+		<div>환경설정>서비스관리>사용자관리</div>
+		<div>
+			<fieldset>
+				<div>검색조건</div>
+				<select>
+					<option>이름</option>
+					<option>나이</option>
+					<option>직책</option>
+				</select>
+				<input type="text">
+				<input type="submit" value="검색">
+			</fieldset>
+		</div>
+	</section>
+	<!-- source end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>

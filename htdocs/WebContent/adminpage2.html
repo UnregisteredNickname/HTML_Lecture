@@ -1,0 +1,54 @@
+<style>
+	input[id*="servicemanagement"] {
+		display: none;
+	}
+	input[id*="servicemanagement"] + label {
+		display: block;
+		padding: 20px;
+		border: 1px solid #232188;
+		color: #00B4FF;
+		background-color: 3C5A91;
+		position: relative;
+	}
+	input[id*="servicemanagement"] + label em {
+		position: absolute;
+		top: 50%;
+		right: 10px;
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+		display: inline-block;
+		background: url(./image/arrow-top) 0 0 no-repeat;
+	}
+	input[id*="servicemanagement"] + label + div { 
+		max-height: 0;
+		transition: all .35s;
+		overflow: hidden;
+		background: #ebf8ff;
+		font-size: 11px;
+	}
+	input[id*="servicemanagement"] + label + div p {
+		display: inline-block;
+		padding: 20px;	
+	}
+	
+	input[id*="servicemanagement"] + label + div {max-height: 100px;}
+	
+</style>
+
+
+
+
+<div class="accordion">
+	<input type="checkbox" id="servicemanagement">
+	<label for="servicemanagement">서비스관리<em></em></label>
+	<div>
+		<ul>
+			<li>계정관리</li>
+			<li>사용자관리</li>
+			<li>포인트관리(유지보수)</li>
+			<li>연동서비스관리</li>
+			<li>결제내역조회</li>
+		</ul>
+	</div>
+</div>
